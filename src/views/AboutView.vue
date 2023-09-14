@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <h1>{{title}}</h1>
     <svg
         id="chart"
         viewBox="0 0 432 488"
@@ -21,7 +22,7 @@
             style="cursor: pointer;"
             @mouseover="getInfo"
         >
-          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
+          <title>Name - {{ title }} Farmers - {{ farmers_count }}</title>
         </path>
         <path
             id="Bhandara"
@@ -560,7 +561,6 @@ export default {
   data() {
     return {
       title: '',
-      id: '',
     }
   },
   methods: {
