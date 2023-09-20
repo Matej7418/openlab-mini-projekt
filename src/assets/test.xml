@@ -1,13 +1,5 @@
-<template>
-  <div class="about">
-    <h1>{{title}}</h1>
-    <svg
-        id="chart"
-        viewBox="0 0 432 488"
-        preserveAspectRatio="xMidYMid meet"
-        pointer-events="auto"
-        width="600px"
-    >
+<?xml version="1.0"?>
+<svg id="chart" viewBox="0 0 432 488" preserveAspectRatio="xMidYMid meet" pointer-events="auto" width="600px">
       <g class="regions">
         <path
             id="Gondia"
@@ -20,9 +12,8 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
         >
-          <title>Name - {{ title }}</title>
+          <title>Name - {{ title }} Farmers - {{ farmers_count }}</title>
         </path>
         <path
             id="Bhandara"
@@ -35,9 +26,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Jalgaon"
@@ -50,9 +41,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Wardha"
@@ -65,9 +56,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Buldhana"
@@ -80,9 +71,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Akola"
@@ -95,9 +86,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Nashik"
@@ -110,9 +101,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Gadchiroli"
@@ -125,9 +116,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Washim"
@@ -140,9 +131,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Chandrapur"
@@ -155,9 +146,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Yavatmal"
@@ -170,9 +161,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Jalna"
@@ -185,9 +176,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Ahmednagar"
@@ -200,9 +191,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Hingoli"
@@ -215,9 +206,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Nanded"
@@ -230,9 +221,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Parbhani"
@@ -245,9 +236,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Pune"
@@ -260,9 +251,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Beed"
@@ -275,9 +266,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Mumbai"
@@ -290,9 +281,9 @@
             stroke="rgb(0, 123, 255)"
             pointer-events="all"
             style="cursor: pointer;"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Latur"
@@ -305,9 +296,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Latur"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Osmanabad"
@@ -320,9 +311,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Osmanabad"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Solapur"
@@ -335,9 +326,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Solapur"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Satara "
@@ -350,9 +341,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Satara"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Ratnagiri"
@@ -365,9 +356,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Ratnagiri"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Sangli"
@@ -380,9 +371,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Sangli"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Kolhapur"
@@ -395,9 +386,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Kolhapur"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Sindhudurg"
@@ -410,9 +401,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Sindhudurg"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Palghar"
@@ -425,9 +416,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Palghar"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Nandurbar"
@@ -440,9 +431,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Nandurbar"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Amravati"
@@ -455,9 +446,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Amravati"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Dhule"
@@ -470,9 +461,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Dhule"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Nagpur "
@@ -485,9 +476,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Nagpur"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Aurangabad"
@@ -500,9 +491,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Aurangabad"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Raigad"
@@ -515,9 +506,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Raigad"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id=" MumbaiSuburban"
@@ -530,9 +521,9 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Mumbai Suburban"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
         <path
             id="Thane"
@@ -545,55 +536,12 @@
             pointer-events="all"
             style="cursor: pointer;"
             title="Thane"
-            @mouseover="getInfo"
+             
         >
-          <title>Name -{{ title }}</title>
+          <title>Name -{{ title }} Farmers -{{ farmers_count }}</title>
         </path>
       </g>
       <g class="state-borders" fill="none" stroke-width="1.5" />
 
       <g class="circles" />
     </svg>
-  </div>
-</template>
-<script>
-export default {
-  data() {
-    return {
-      title: '',
-    }
-  },
-  methods: {
-    getInfo(e) {
-      this.title = e.target.id
-    },
-
-  },
-}
-</script>
-<style scoped>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-path {
-  fill: #558b2f;
-  cursor: pointer;
-  -webkit-transition: all 150ms;
-  -moz-transition: all 150ms;
-  -o-transition: all 150ms;
-  transition: all 150ms;
-}
-path:hover {
-  opacity: 0.5;
-}
-.land {
-  fill-opacity: 1;
-  stroke: white;
-  stroke-opacity: 1;
-  stroke-width: 0.3;
-}
-</style>
