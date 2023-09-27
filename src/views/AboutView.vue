@@ -575,8 +575,11 @@ export default {
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
+    margin: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 path {

@@ -9,7 +9,7 @@
   </main>
 </template>
 
-<script>
+<script lang="js">
 import TheWelcome from '../components/TheWelcome.vue'
 import SvgMap from 'vue-simple-svg-map'
 import map from '@/assets/map.js'
